@@ -1,0 +1,293 @@
+body {
+  font-family: sans-serif;
+}
+.container{
+  max-width: 1100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.top{
+  display: flex;
+  align-items: center;
+}
+
+.slide{
+  position: relative;
+  width: 50%;
+}
+
+.avatar{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hello-world{
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgb(44, 219, 231);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: all 0.5s ease;
+}
+
+.slide:hover .hello-world{
+  bottom: 0;
+  height: 100%;
+}
+
+.text-hello{
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+}
+
+.left{
+  margin-left: 10px;
+}
+
+.hello-world2{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(44, 219, 231);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: all 0.5s ease;
+}
+
+.text-hello2{
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+}
+.slide:hover .hello-world2{
+  height: 100%;
+}
+
+.hello-world2{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(44, 219, 231);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: all 0.5s ease;
+}
+
+.text-hello2{
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+}
+.slide:hover .hello-world2{
+  width: 100%;
+  left: 0;
+}
+
+.top1{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.hello-world-left{
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: rgb(44, 219, 231);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: all 0.5s ease;
+}
+
+.text-hello-left{
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.top1:hover .hello-world-left{
+  width: 100%;
+  left: 0;
+}
+
+.right{
+  margin-left: 10px;
+}
+
+.hello-world-right{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(44, 219, 231);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: all 0.5s ease;
+}
+
+.text-hello-right{
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.top1:hover .hello-world-right{
+  width: 100%;
+}
+
+.down{
+  display: flex;
+  align-items: center;
+}
+
+.down3{
+  position: relative;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.avatar3{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.hello-world3{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: rgb(44, 219, 231);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.text-hello3{
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+}
+.down3:hover .hello-world3{
+  opacity: 1;
+}
+
+.hello-world4{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: rgb(44, 219, 231);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.text-hello4{
+  border: 2px solid transparent;
+  padding: 6px 10px;
+  background-color: rgb(3, 189, 13);
+  letter-spacing: 1px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  opacity: 1;
+}
+.down3:hover .hello-world4{
+  opacity: 0.7;
+}
+
+.d4{
+  margin-left: 10px;
+}
+
+.footer{
+  position: relative;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.avatar-footer{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hello-world-up{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(44, 219, 231);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease;
+  transform: scale(0);
+}
+
+.footer:hover .hello-world-up{
+  transform: scale(1);
+}
+
+.text-hello-up{
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  align-items: center;
+}
+
+.left{
+  margin-left: 10px;
+}
